@@ -66,8 +66,17 @@ section h4 {
 }
 
 @media only screen and (max-width: 768px) {
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .login-main {
+        margin: 2rem auto;
+    }
     .login-container {
         width: 24rem;
+        padding: 1.5rem;
     }
 }
 

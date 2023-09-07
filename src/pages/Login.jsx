@@ -20,7 +20,6 @@ function Login() {
                         className='input-field'
                         type='text'
                         placeholder='Username'
-
                     />
                 </div>
                 <div className='input-container'>
@@ -28,8 +27,7 @@ function Login() {
                     <input 
                         className='input-field'
                         type='password'
-                        placeholder='Password'
-                        
+                        placeholder='Password' 
                     />
                 </div>
                 <button onClick={handleSubmit} className='btn-login'>LOG IN</button>
