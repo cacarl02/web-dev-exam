@@ -8,8 +8,13 @@
 }
 
 :root {
-  --mainColor: #0091D5;
-  --mainColorLight: #009fe8;
-  --secondaryColor: #e80036;
+  --mainColor: #222;
+  --mainColorLight: #666;
+  --secondaryColor: #999;
   --textColor: #eee;
+  --btnColor: linear-gradient(90deg, #cfa76b, #695536);
+  --btnColorHover: linear-gradient(90deg, #e3b776, #8d7249);
+  --bgColorDark: #181a20;
+  --bgColorGray: #5e6673;
+  --bgColorNavy: #2a2b37;
 }

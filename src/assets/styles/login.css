@@ -1,0 +1,78 @@
+
+section h4 {
+    text-align: center;
+}
+.login-main {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    color: var(--textColor);
+}
+
+.login-container {
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--bgColorNavy);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: 1.5rem 0;
+}
+
+.input-field {
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.btn-login {
+    width: 100%;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    background-image: var(--btnColor);
+    color: var(--textColor);
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-image: var(--btnColorHover);
+}
+
+.btn-signup {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #cfa76b;
+}
+
+.btn-signup:hover {
+    color: #e9bd7a;
+}
+
+@media only screen and (max-width: 1024px) {
+    .login-main {
+        float:none;
+        margin: 4rem auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .login-container {
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .login-container {
+        width: 20rem;
+    }
+}
